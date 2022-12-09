@@ -1,0 +1,615 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:wght@700&display=swap');
+/* commmon code start */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0px  auto;
+	height: 100%;
+	width: 90%;
+	font-family: 'Nunito', sans-serif;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+/* common code end */
+/* nav code start */
+nav{
+	height: 100%;
+	width: 100%;
+	background: #F8F9FA;
+}
+/* nav-inner code */
+.nav-inner{
+	overflow: hidden;
+	clear: both;
+}
+/*  logo code  */
+.nav-inner .logo{
+	width: 23%;
+	float: left;
+}
+.nav-inner .logo a{
+	text-decoration: none;
+	color: #17a2b8;
+	font-size: 48px;
+	line-height: 2;
+	font-weight: 700;
+	text-align: center;
+}
+.nav-inner .logo a .bi{
+	color: #505253;
+}
+.nav-inner .logo a:hover .bi{
+	color: #202122;
+}
+/* navber code */
+.navber{
+	width: 62%;
+	float: left;
+}
+.navber ul{
+	text-align: center;
+}
+.navber ul li{
+	list-style: none;
+	display: inline-block;
+}
+.navber ul li a{
+	display: inline-block;
+	text-align: center;
+	line-height: 5;
+	text-decoration: none;
+	color: #272822;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 20px;
+}
+.navber ul li a:hover{
+	color: #17a2b8;
+}
+.navber ul li a.active{
+	color: #17a2b8;
+}
+/* join-class code */
+.nav-inner .join-class{
+	width: 15%;
+	text-align: right;
+	float: left;
+}
+.nav-inner .join-class a{
+	display: inline-block;
+	text-decoration: none;
+	background: #17a2b8;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 30px;
+	margin-top: 30px;
+	transition: 0.5s all;
+}
+.nav-inner .join-class a:hover{
+	background: #13899b;
+}
+/* nav code end */
+/* banner content code start */
+.banner{
+	background: #17a2b8;
+	height: 720px;
+}
+.banner-inner{
+	padding-top: 50px ;
+	clear: both;
+}
+.banner-inner .content{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.banner-inner .content h1{
+	font-family: 'Handlee', cursive;
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 20%;
+}
+.banner-inner .content h2{
+	font-family: 'Handlee', cursive;
+	font-weight: 700;
+	line-height: 86px;
+	font-size: 72px;
+	color: #fff;
+	margin: 15px 0;
+}
+.banner-inner .content p{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.banner-inner .content a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 50px;
+	letter-spacing: 1px;
+	background: #0a475fd2;
+	border-radius: 30px;
+	margin-top: 15px;
+	transition: 0.5s all;
+}
+.banner-inner .content a:hover{
+	background: #043142;
+}
+/* banner content code end */
+/* banner img code start */
+.banner-inner .img{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.img img{
+	width: 100%;
+}
+/* banner img code end */
+
+/* features code start */
+.features{
+	width: 100%;
+	height: 100%;
+}
+.features-inner{
+	clear: both;
+	margin: 70px auto;
+}
+.features-inner .features-item{
+	float: left;
+	width: 30%;
+	background: #f1f3f5de;
+	height: 170px;
+	margin: 15px;
+	border-radius: 10px;
+	padding: 40px;
+}
+.features-inner .features-item .icon{
+	float: left;
+	width: 20%;
+}
+.features-inner .features-item .content{
+	float: left;
+	width: 80%;
+}
+.features-inner .features-item .content h1{
+	font-family: Handlee, cursive;
+	font-size: 24px;
+	font-weight: 700;
+	color: #00394f;
+}
+.features-inner .features-item .content p{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #666;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 5px;
+}
+.features-inner .features-item .icon .bi{
+	font-size: 40px;
+	margin-right: 15px;
+	color: #17A2C7;
+}
+/* features code end */
+/* about code start */
+.about{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.about-inner{
+	margin: 70px auto;
+}
+.about-inner .about-picture{
+	width: 50%;
+	float: left;
+}
+.about-inner .about-picture img{
+	width: 100%;
+	border-radius: 10px;
+}
+/* about-content code start */
+.about-inner .about-content{
+	width: 50%;
+	float: left;
+	padding: 40px;
+	overflow: hidden;
+}
+.about-inner .about-content h1{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	color: #17a2b8;
+	text-transform: uppercase;
+	margin-top: 15%;
+}
+.about-inner .about-content h2{
+	font-family: Handlee, cursive;
+	font-size: 40px;
+	line-height: 48px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	color: #00394f;
+	text-transform: capitalize;
+	margin: 20px 0;
+}
+.about-inner .about-content p{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	color: #666;
+	text-transform: capitalize;
+	margin: 30px 0;
+}
+/* learn-about code start */
+.about-content .learn-about{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+.about-content .learn-about-img{
+	float: left;
+	width: 35%;
+}
+.about-content .learn-about-img img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+/* learn-about-content-code start */
+.about-content .learn-about-content{
+	float: left;
+	width: 65%;
+}
+.about-content .learn-about-content li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #666;
+	border-bottom: 1px solid #2e30312f;
+	margin-left: 30px;
+	padding: 9px;
+}
+.about-content .learn-about-content li:first-child{
+	border-top: 1px solid #2e30312f;
+}
+.about-content .learn-about-content li .bi{
+	font-weight: bolder;
+	color: #17A2C7;
+}
+/* learn more code start */
+.about-inner .about-content a{
+	display: inline-block;
+	text-decoration: none;
+	background: #118a9c;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 30px;
+	margin-top: 30px;
+	letter-spacing: 1.5px;
+	transition: 0.5s all;
+	opacity: 0.8;
+}
+.about-inner .about-content a:hover{
+	opacity: 1;
+}
+/* about code end */
+
+/* class code start */
+.class{
+	margin: 40px 0px;
+}
+/* class title code */
+.class-inner .class-title{
+	text-align: center;
+}
+.class-inner .class-title h2{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	color: #17a2b8;
+	text-transform: uppercase;
+}
+.class-inner .class-title h3{
+	font-family: Handlee, cursive;
+	font-size: 40px;
+	line-height: 48px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	color: #00394f;
+	text-transform: capitalize;
+	margin: 20px 0;
+}
+.class-inner .class-content{
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+/* class card code */
+.class-inner .class-content .card{
+	float: left;
+	width: 32%;
+	background-color: #f0f1f3e5;
+	text-align: center;
+	border-radius:  8px;
+	margin-right: 15px;
+}
+.class-inner .class-content .card img{
+	border-radius: 6px 6px 0px 0px;
+}
+.class-inner .class-content .card h2{
+	font-family: Handlee, cursive;
+	font-size: 24px;
+	font-weight: 700;
+	color: #00394f;
+	margin-top: 20px;
+}
+.class-inner .class-content .card p{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #666;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 15px 0px;
+	padding: 0 20px;
+}
+/*  table code start  */
+.class-inner .class-content .card table{
+	width: 100%;
+	border-spacing: 0;
+	border-top: 1px solid #cbcbcc;
+	padding: 20px;
+}
+.class-content .card table tr th,
+.class-content .card table tr td{
+	padding: 10px;
+	border-bottom: 1px solid #cbcbcc;
+}
+.class-content .card table tr td{
+	border-left: 1px solid #cbcbcc;
+}
+.class-content .card table tr:last-child th,
+.class-content .card table tr:last-child td{
+	border-bottom: 1px solid transparent;
+}
+.class-inner .class-content .card a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 20px;
+	letter-spacing: 1px;
+	background: #179eb3;
+	border-radius: 30px;
+	margin: 20px 0px;
+	transition: 0.5s all;
+}
+.class-inner .class-content .card a:hover{
+	background: #138496;
+}
+/* class code end */
+/* booking code start */
+.booking .booking-inner{
+	clear: both;
+	overflow: hidden;
+}
+/* booking content code start */
+.booking .booking-inner .booking-content{
+	float: left;
+	width: 58%;
+	height: 100%;
+	margin: 30px 20px 20px 0px;
+}
+.booking-inner .booking-content h2{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	color: #17a2b8;
+	text-transform: uppercase;
+}
+.booking-inner .booking-content h3{
+	font-family: Handlee, cursive;
+	font-size: 40px;
+	line-height: 48px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	color: #00394f;
+	text-transform: capitalize;
+	margin: 20px 0;
+}
+.booking-inner .booking-content p{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	color: #666;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+.booking-inner .booking-content li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #666;
+	padding: 9px;
+}
+.booking-inner .booking-content li .bi{
+	color: rgb(44, 233, 240);
+}
+.booking-inner .booking-content a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 20px;
+	letter-spacing: 1px;
+	background: #179eb3;
+	border-radius: 30px;
+	margin: 20px 0px;
+	transition: 0.5s all;
+}
+.booking-inner .booking-content a:hover{
+	background: #138496;
+}
+/* booking form code start */
+.booking .booking-inner .booking-form{
+	float: left;
+	width: 39%;
+	margin-top: 30px;
+	height: 100%;
+}
+.booking-inner .booking-form h2{
+	font-family: Handlee, cursive;
+	font-size: 40px;
+	color: #fff;
+	background: #00394F;
+	padding: 20px 40px;
+	text-align: center;
+	border-radius: 8px 8px 0px 0px;
+}
+.booking-inner .booking-form form{
+	background: #17A2B8;
+	border-radius: 0px 0px 6px 6px;
+	padding: 40px;
+}
+.booking-inner .booking-form input,
+.booking-inner .booking-form select{
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+.booking-inner .booking-form button{
+	display: block;
+	width: 100%;
+	border-radius: 8px;
+	padding: 15px;
+	outline: none;
+	border: none;
+	margin-bottom: none;
+	color: #fff;
+	background-color: #00394f;
+	cursor: pointer;
+}
+/* booking code end */
+/* teacher team code start */
+.teacher-inner{
+	overflow: hidden;
+	clear: both;
+	margin-top: 40px;
+}
+.teacher-team{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.teacher-team h2{
+	font-family: Handlee, cursive;
+	font-size: 24px;
+	color: #00394f;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+.teacher-team p{
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	color: #666;
+	margin-left: 65px;
+	margin-bottom: 20px;
+}
+/* teacher-image-01-effect code */
+.teacher-image-background{
+	background: url(../img/team-1.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+}
+.teacher-social-links{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: rgba(35, 179, 147, 0.5);
+	transition: 0.5s all;
+	opacity: 0;
+}
+.teacher-social-links a{
+	display: inline-block;
+	margin-top: 150px;
+	color: #fff;
+	font-size: 35px;
+	margin-left: 5px;
+	text-align: center;
+	margin-left: 30px;
+}
+.teacher-social-links a:hover{
+	color: #1ae0e0;
+}
+.teacher-social-links:hover{
+	opacity: 1;
+}
+
+/* teacher-image-02-effect code */
+.teacher-image-background1{
+	background: url(../img/team-2.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+/* teacher-image-03-effect code */
+.teacher-image-background2{
+	background: url(../img/team-3.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+}
+/* teacher-image-04-effect code */
+.teacher-image-background3{
+	background: url(../img/team-4.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+/* teacher team code end */
